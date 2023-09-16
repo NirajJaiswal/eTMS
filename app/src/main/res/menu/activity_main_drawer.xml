@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/apply_bus_pass"
+            android:icon="@drawable/baseline_directions_bus_24"
+            android:title="@string/apply_bus_pass" />
+        <item
+            android:id="@+id/bus_pass_request_status"
+            android:icon="@drawable/baseline_edit_note_24"
+            android:title="@string/bus_pass_request_status" />
+        <item
+            android:id="@+id/back_to_home_page"
+            android:icon="@drawable/baseline_settings_backup_restore_24"
+            android:title="@string/back_to_home_page" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/baseline_arrow_forward_24"
+            android:title="@string/logout" />
+    </group>
+</menu>
